@@ -1,0 +1,195 @@
+/* media query under 600px */
+:root{
+    --color-primary:#191d2b;
+    --color-secondery:#48dbfb;
+    --color-white:#FFFFFF;
+    --color-black:#000;
+    --color-grey0:#f8f8f8;
+    --color-grey1:#dbe1e8;
+    --color-grey2:#b2becd;
+    --color-grey3:#6c7983;
+    --color-grey4:#454e56;
+    --color-grey5:#2a2e35;
+    --color-grey6:#12181b;
+    --color-main:rgb(24, 23, 34);
+    --br-sm-2:14px;
+    --box-shadow:0 3px 15px rgba(0,0,0,0.3);
+
+}
+@media only screen and (max-width:600px){
+    .right-header{
+        padding: 2rem;
+    }
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .left-header{
+        height: 70vh;
+    }
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .right-header .name{
+        font-size: 2.5rem;
+    }
+    .header-content .left-header .image{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    /* about section */
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+    .left-about{
+        padding-right: 0;
+    }
+    .left-about p{
+        padding: 0;
+    }
+    .right-about{
+        grid-template-columns: 1fr;
+        padding-top: 2.5rem;
+    }
+    .progress-bars{
+        grid-template-columns: 1fr;
+    }
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 5rem;
+    }
+    /* portfolio section */
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    /* blog section */
+    .blogs{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    /* contact section */
+    .contact-conn{
+        flex-direction: column;
+    }
+    .right-contact{
+        margin-left: 0;
+        margin-top: 2.5rem;
+    }
+    /* universal style */
+    .controls{
+        top: auto;
+        bottom: 0;
+        justify-content: center;
+        flex-direction: row;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+    }
+    .controls .control{
+        margin: 1rem .3rem;
+    }
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+    .main-title h2{
+        font-size: 2rem;
+    }
+    .main-title h2 span.bg-text{
+        font-size: 3rem;
+    }
+    section{
+        padding: 2rem 2.5rem;
+    }
+
+
+}
+@media only screen and (max-width: 1199px) and (min-width: 601px){
+    .right-header{
+       padding: 2rem;
+       padding-bottom: 4rem;
+   }
+   .header-content{
+       grid-template-columns: 1fr;
+       padding:5rem;
+   }
+   .left-header{
+       height: 90vh;
+   }
+   .right-header{
+       grid-row: 1;
+       width: 90%;
+       margin: 0 auto;
+   }
+   .right-header .name{
+       font-size: 2.5rem;
+   }
+   .header-content .left-header .image{
+       width: 90%;
+       margin: 0 auto;
+   }
+   /* about section */
+   .sec2{
+       padding: 2rem 8rem;
+   }
+   .about-container{
+       grid-template-columns: 1fr;
+   }
+   .left-about{
+       padding-right: 0;
+   }
+   .left-about p{
+       padding: 2rem 0;
+   }
+   .right-about{
+       grid-template-columns: repeat(2,1fr);
+       padding-top: 2.5rem;
+   }
+   .progress-bars{
+       grid-template-columns: 1fr;
+   }
+   .timeline{
+       grid-template-columns: 1fr;
+       padding-bottom: 5rem;
+   }
+   /* portfolio section */
+   .portfolios{
+       grid-template-columns: repeat(2,1fr);
+       padding-bottom: 6rem;
+       padding-top: 2rem;
+   }
+   /* blog section */
+   .blogs{
+       grid-template-columns: repeat(2,1fr);
+       padding-bottom: 6rem;
+       padding-top: 4rem;
+   }
+   /* contact section */
+   .contact-conn{
+       flex-direction: column;
+   }
+   .right-contact{
+       margin-left: 0;
+       margin-top: 2.5rem;
+   }
+   .sec5{
+       padding: 4rem 8rem;
+   }
+
+   /* universal style */
+   section{
+       padding: 4rem 5.5rem;
+   }
+   .main-title h2{
+       font-size: 3rem;
+   }
+   .main-title h2 span.bg-text{
+       font-size: 4rem;
+   }
+   
+}
